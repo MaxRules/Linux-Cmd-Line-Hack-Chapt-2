@@ -1,0 +1,42 @@
+Meeting Start
+Date: 2023-02-14
+Title: Initial Recon Phase Briefing
+Attendees: Alice, Bob, Charlie
+- Alice started the meeting with an overview of the target's digital footprint.
+- Bob discussed potential entry points identified in the preliminary scan.
+- Charlie presented the social engineering angles we could leverage.
+- Action Items:
+  - Alice to refine the list of target IPs.
+  - Bob to investigate the web application vulnerabilities.
+  - Charlie to prepare phishing templates.
+Meeting End
+
+Meeting Start
+Date: 2023-02-21
+Title: Exploitation Strategy Discussion
+Attendees: Alice, Bob, Charlie, Dave
+- Dave joined the team and shared insights on bypassing IDS systems.
+- Bob presented a demo of the custom exploit for the identified vulnerability.
+- Alice suggested synchronizing the attack to reduce detection risk.
+- Charlie updated the team on the pretext for the phishing campaign.
+- Action Items:
+  - Dave to provide IDS evasion scripts.
+  - Bob to finalize the exploit code.
+  - Alice to coordinate the attack timing.
+  - Charlie to launch the phishing campaign.
+Meeting End
+
+Meeting Start
+Date: 2023-02-28
+Title: Post-Exploitation and Data Exfiltration Planning
+Attendees: Alice, Bob, Charlie, Dave
+- Alice outlined the post-exploitation steps to maintain access.
+- Bob explained the data segmentation to avoid large data transfer anomalies.
+- Charlie proposed using steganography for sensitive data exfiltration.
+- Dave discussed covering tracks to erase any signs of the breach.
+- Action Items:
+  - Alice to set up persistent backdoors.
+  - Bob to prepare data extraction scripts.
+  - Charlie to test steganography methods on sample data.
+  - Dave to review log tampering techniques.
+Meeting End
