@@ -1,0 +1,21 @@
+#!/bin/bash
+ chpt2\Ex1-VIEWING A RECIPE
+# Download a file named MyFavoriteRecipe.txt containing a classic tomatoe spaghetti recipe from the link 
+# Use less and more to view this recipe file and find out on which step of the recipe you heat up oil the oil 
+
+Downloaded file "MyFavoriteRecipe.txt"
+
+Navigate to the directory containing the text file with ls and $PWD
+
+ls $PWD/ MyFavoriteRecipe.txt
+cd {path_to_file}
+less MyFavoriteRecipe.txt
+Using "MORE"
+more MyFavoriteRecipe.txt
+
+using the ff keys:
+-> Enter key: Move forward one page
+-> Space key: Move forward multiple lines
+-> b: Moved backward
+-> q: Quit viewing the file
+We heat the oil on the 3rd step of the recipe.
