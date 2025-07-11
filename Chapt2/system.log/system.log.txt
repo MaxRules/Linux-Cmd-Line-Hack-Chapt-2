@@ -1,0 +1,45 @@
+Jan 12 08:14:15 mysystem kernel: Initializing cgroup subsys cpuset
+Jan 12 08:14:15 mysystem kernel: Initializing cgroup subsys cpu
+Jan 12 08:14:15 mysystem kernel: Linux version 4.15.0 (builder@kali) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3))
+Jan 12 08:14:16 mysystem kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0 root=UUID=9e5e64d3-7db1-4c2f-8a76-535605db9768 ro quiet splash
+Jan 12 08:14:16 mysystem kernel: KERNEL supported cpus:
+Jan 12 08:14:16 mysystem kernel:   Intel GenuineIntel
+Jan 12 08:14:16 mysystem kernel:   AMD AuthenticAMD
+Jan 12 08:14:16 mysystem kernel:   Centaur CentaurHauls
+Jan 12 08:14:16 mysystem systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 12 08:14:16 mysystem systemd[1]: Starting Create Volatile Files and Directories...
+Jan 12 08:14:16 mysystem systemd[1]: Started Create Volatile Files and Directories.
+Jan 12 08:14:16 mysystem systemd[1]: Starting Network Time Synchronization...
+Jan 12 08:14:16 mysystem systemd[1]: Started Network Time Synchronization.
+Jan 12 08:14:16 mysystem systemd[1]: Reached target System Time Synchronized.
+Jan 12 08:14:17 mysystem kernel: [drm] Initialized
+Jan 12 08:14:17 mysystem kernel: [Firmware Bug]: TSC_DEADLINE disabled due to Errata; please update microcode to version: 0x22 (or later)
+Jan 12 08:15:23 mysystem kernel: [drm] radeon kernel modesetting enabled.
+Jan 12 08:15:23 mysystem kernel: error: [drm:pid0:radeon_init [radeon]] *ERROR* No UMS support in radeon module!
+Jan 12 08:15:24 mysystem kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jan 12 08:15:24 mysystem kernel: sd 0:0:0:1: [sdb] Attached SCSI disk
+Jan 12 08:15:24 mysystem kernel: sd 0:0:1:0: [sdc] Attached SCSI disk
+Jan 12 08:15:25 mysystem kernel: usb 1-1: new high-speed USB device number 2 using ehci-pci
+Jan 12 08:15:25 mysystem kernel: usb 1-1: New USB device found, idVendor=8087, idProduct=0024
+Jan 12 08:15:25 mysystem kernel: usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jan 12 08:15:25 mysystem kernel: hub 1-1:1.0: USB hub found
+Jan 12 08:15:25 mysystem kernel: hub 1-1:1.0: 6 ports detected
+Jan 12 08:15:26 mysystem kernel: usb 2-1: new high-speed USB device number 2 using ehci-pci
+Jan 12 08:15:26 mysystem kernel: usb 2-1: New USB device found, idVendor=8087, idProduct=0024
+Jan 12 08:15:26 mysystem kernel: usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jan 12 08:15:26 mysystem kernel: hub 2-1:1.0: USB hub found
+Jan 12 08:15:26 mysystem kernel: hub 2-1:1.0: 8 ports detected
+Jan 12 08:15:27 mysystem systemd[1]: Created slice system-getty.slice.
+Jan 12 08:15:27 mysystem systemd[1]: Created slice User and Session Slice.
+Jan 12 08:15:27 mysystem systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Jan 12 08:15:27 mysystem systemd[1]: Started Braille Device Support.
+Jan 12 08:15:27 mysystem kernel: EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jan 12 08:15:27 mysystem kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Jan 12 08:15:27 mysystem systemd[1]: Starting Set console keymap...
+Jan 12 08:15:27 mysystem systemd[1]: Started Set console keymap.
+Jan 12 08:15:27 mysystem systemd[1]: Reached target Local File Systems (Pre).
+Jan 12 08:15:27 mysystem systemd[1]: Reached target Local File Systems.
+Jan 12 08:15:27 mysystem systemd[1]: Started Raise network interfaces.
+Jan 12 08:15:27 mysystem systemd[1]: Reached target Network.
+Jan 12 08:15:27 mysystem systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Jan 12 08:15:27 mysystem kernel: error: CPU:0 PID:1224 at /build/linux-hwe-xXxX/drivers/gpu/drm/radeon/radeon_mode.c:571 radeon_dp_get_panel_mode+0x1a9/0x1c0 [radeon]
