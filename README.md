@@ -10,7 +10,7 @@ Command Line Hacker: A hands-on self taught projects on Linux administration and
 2. [Working with Large Files](#working-with-large-files)
 3. [Extracting Data from Logs](#extracting-data-from-logs)
 
-Exercise 1: Grep and Text Processing:
+## Exercise 1: Grep and Text Processing:
 - ## Grep and Text Processing
 
     ### Command Used:
@@ -24,7 +24,7 @@ Exercise 1: Grep and Text Processing:
     - 7: cherry tomatoes
 
 
-#Exercise 2: Working with Large Files:
+## Exercise 2: Working with Large Files:
 ## Working with Large Files
 ### Command Used:
     - head -n 20 ~/Documents/LongScript.sh
@@ -36,7 +36,7 @@ Exercise 1: Grep and Text Processing:
       shell script file. This allows for efficient navigation of large files without opening the entire document
 
 
-#Exercise 3: Extracting Data from Logs:
+## Exercise 3: Extracting Data from Logs:
 ## Extracting Data from Logs
 ### Command Used:
     - grep "error" ~/Documents/system.log
@@ -47,7 +47,7 @@ Exercise 1: Grep and Text Processing:
       quickly identifying system issues
 
 
-#Exercise 4: Scripting with Sed:
+## Exercise 4: Scripting with Sed:
 ## Scripting with Sed
 ### Command Used:
     - sed -n '/Meeting Start/,/Meeting End/p' MeetingNotes.txt > ExtractedMeetings.txt
